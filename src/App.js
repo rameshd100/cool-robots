@@ -29,9 +29,16 @@ class App extends Component {
 
     return (
       <div className="app">
-        <h1>Cool Robots</h1>
-        <SearchBox onSearchChange={this.onSearchChange} />
+        <div className="header">
+          <h1>Cool Robots</h1>
+          <SearchBox onSearchChange={this.onSearchChange} />
+        </div>
         <CardList robots={filteredRobots} />
+        <footer className="footer">
+          <h3>
+            &copy; Made with <i class="fas fa-heart"></i> by <a href="www.rameshdahal.com">Ramesh Dahal</a>
+          </h3>
+        </footer>
       </div>
     );
   }

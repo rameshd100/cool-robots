@@ -1,3 +1,5 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css";
+
 html {
   text-align: center;
   background-image: radial-gradient(circle farthest-corner at -8.9% 51.2%, rgba(255, 124, 0, 1) 0%, rgba(255, 124, 0, 1) 15.9%, rgba(255, 163, 77, 1) 15.9%, rgba(255, 163, 77, 1) 24.4%, rgba(19, 30, 37, 1) 24.5%, rgba(19, 30, 37, 1) 66%);
@@ -7,6 +9,47 @@ html {
   color: #ff7c00;
   font-size: 50px;
   font-family: "Black Ops One", cursive, sans-serif;
+}
+.header {
+  width: 100%;
+}
+
+.footer {
+  margin-top: 5rem;
+  color: white;
+  height: 8rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer i {
+  color: red;
+  animation-name: heartFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+
+@keyframes heartFadeInOut {
+  0% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 1;
+  }
+  28% {
+    opacity: 0;
+  }
+  42% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
 }
 
 @media screen and (max-width: 1250px) {
