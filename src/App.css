@@ -5,8 +5,8 @@ html {
 
 .app h1 {
   color: #ff7c00;
-  font-size: 40px;
-  padding: 1rem 0;
+  font-size: 50px;
+  font-family: "Black Ops One", cursive, sans-serif;
 }
 
 @media screen and (max-width: 1250px) {
