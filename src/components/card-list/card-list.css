@@ -5,3 +5,14 @@
   margin: 0 auto;
   grid-gap: 5rem;
 }
+
+@media screen and (max-width: 1250px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card-list {
+    grid-template-columns: 1fr;
+  }
+}

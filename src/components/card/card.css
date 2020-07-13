@@ -12,3 +12,7 @@
   padding-bottom: 1.5rem;
   color: #131e25;
 }
+
+.card-container:hover {
+  transform: scale(1.05);
+}

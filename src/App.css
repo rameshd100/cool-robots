@@ -6,4 +6,17 @@ html {
 .app h1 {
   color: #ff7c00;
   font-size: 40px;
+  padding: 1rem 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .app h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .app h1 {
+    font-size: 28px;
+  }
 }
