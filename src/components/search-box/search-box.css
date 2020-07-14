@@ -5,3 +5,17 @@
   border: 2px solid #ffa34d;
   border-radius: 2px;
 }
+
+@media screen and (max-width: 1250px) {
+  .search-box {
+    font-size: 15px;
+    height: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .search-box {
+    font-size: 12px;
+    height: 2rem;
+  }
+}

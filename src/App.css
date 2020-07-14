@@ -2,6 +2,7 @@
 
 html {
   text-align: center;
+  scroll-behavior: smooth;
   background-image: radial-gradient(circle farthest-corner at -8.9% 51.2%, rgba(255, 124, 0, 1) 0%, rgba(255, 124, 0, 1) 15.9%, rgba(255, 163, 77, 1) 15.9%, rgba(255, 163, 77, 1) 24.4%, rgba(19, 30, 37, 1) 24.5%, rgba(19, 30, 37, 1) 66%);
 }
 
@@ -14,8 +15,14 @@ html {
   width: 100%;
 }
 
+.far {
+  color: #ff7c00;
+  font-size: 30px;
+  margin-top: 2rem;
+}
+
 .footer {
-  margin-top: 5rem;
+  margin-top: 2rem;
   color: white;
   height: 8rem;
 }
@@ -56,10 +63,16 @@ html {
   .app h1 {
     font-size: 35px;
   }
+  .footer {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .app h1 {
     font-size: 28px;
+  }
+  .far {
+    font-size: 24px;
   }
 }

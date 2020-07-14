@@ -30,10 +30,13 @@ class App extends Component {
     return (
       <div className="app">
         <div className="header">
-          <h1>Cool Robots</h1>
+          <h1 id="title">Cool Robots</h1>
           <SearchBox onSearchChange={this.onSearchChange} />
         </div>
         <CardList robots={filteredRobots} />
+        <a href="#title">
+          <i class="far fa-arrow-alt-circle-up"></i>
+        </a>
         <footer className="footer">
           <h3>
             &copy; Made with <i class="fas fa-heart"></i> by <a href="www.rameshdahal.com">Ramesh Dahal</a>
